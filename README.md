@@ -13,3 +13,4 @@
 - [Jaden Casing Strings - 7 kyu](https://www.codewars.com/kata/jaden-casing-strings)
 - [Exes and Ohs - 7 kyu](https://www.codewars.com/kata/exes-and-ohs)
 - [Fat Fingers - 6 kyu](https://www.codewars.com/kata/fat-fingers)
+- [Sum of Pairs - 5 kyu](https://www.codewars.com/kata/sum-of-pairs)

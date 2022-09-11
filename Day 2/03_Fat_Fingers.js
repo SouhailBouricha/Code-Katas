@@ -30,4 +30,4 @@ var fatFingers = function(str) {
     return result ? result : "";
 };
 
-console.log(fatFingers("abABaBabAb")); 
+console.log(fatFingers("abABaBabAb")); //BBbbB

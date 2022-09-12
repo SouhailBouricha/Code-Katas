@@ -1,29 +1,82 @@
-// Given a list of integers and a single sum value, return the first two values 
-// (parse from the left please) in order of appearance that add up to form the sum.
-// If there are two or more pairs with the required sum, the pair whose second 
-// element has the smallest index is the solution .
+// function sumPairs(ints, s) {
+//     let result = [];
+//     let indexPairs = [];
+//     for (let i = 0; i < ints.length; i++) {
+//         for (let j = i + 1; j < ints.length; j++) {
+//                 if(ints[i] + ints[j] == s && i != j){
+//                     if(indexPairs.includes(`${[i,j].sort()}`) == false){
+//                         // console.log(indexPairs.includes([i,j].sort()));
+//                         indexPairs.push(`${[i,j].sort()}`);
+//                         result.push([ints[i],ints[j],j]);
+//                     }
+//                 }
+//         } 
+//     }
+//     if(result.length > 0){
+//         let minIndex = result[0][2];
+//         let arr = [result[0][0],result[0][1]];
+//         result.forEach((e) =>{
+//             if(e[2] < minIndex){
+//                 minIndex = e[2];
+//                 arr = [e[0],e[1]];
+//             }
+//         });
+//         return arr;
+//     }
+//     else{
+//         return undefined;
+//    }
+// }
 
-
-// sum_pairs([11, 3, 7, 5],         10)
-// #              ^--^      3 + 7 = 10
-// == [3, 7]
-
-// sum_pairs([4, 3, 2, 3, 4],         6)
-// #          ^-----^         4 + 2 = 6, indices: 0, 2 *
-// #             ^-----^      3 + 3 = 6, indices: 1, 3
-// #                ^-----^   2 + 4 = 6, indices: 2, 4
-// #  * the correct answer is the pair whose second value has the smallest index
-// == [4, 2]
-
-// sum_pairs([0, 0, -2, 3], 2)
-// #  there are no pairs of values that can be added to produce 2.
-// == None/nil/undefined (Based on the language)
-
-// sum_pairs([10, 5, 2, 3, 7, 5],         10)
-// #              ^-----------^   5 + 5 = 10, indices: 1, 5
-// #                    ^--^      3 + 7 = 10, indices: 3, 4 *
-// #  * the correct answer is the pair whose second value has the smallest index
-// == [3, 7]
 function sumPairs(ints, s) {
-    return [0, 0] || undefined;
-} 
+    let firstNbs = {};
+    let isfind = false;
+    let result = []
+    try{
+        ints.forEach(element => {
+            let newNb = s - element;
+            // console.log(firstNbs,element,newNb);
+            for(n in firstNbs){
+                if(Number(n) == newNb){
+                    isfind = true;
+                    result.push(element);
+                    result.push(Number(n));
+                }
+            }
+            if(isfind){
+                throw 'Break';
+            }
+            else{
+                firstNbs[element] = true;
+            }
+       });
+    }
+    catch{
+        return result;
+    }
+}
+console.log(sumPairs([11, 3,7, 5],10));
+console.log(sumPairs([4, 3, 2, 3, 4],6));
+console.log(sumPairs([0, 0, -2, 3], 2));
+console.log(sumPairs([10, 5, 2, 3, 7, 5],10));
+// let array = [
+//     13, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+//      1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+//      1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+//      1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+//      1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+//      1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+//      1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+//      1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+//      1, 1, 1, 1
+//   ]
+// for (let i = 0; i < 4999900 ; i++) {
+//     array.push(1);
+// }
+
+// console.log(array);
+// console.log(sumPairs(array,13));
+
+// let firstNbs = {7:"v"};
+
+// console.log(firstNbs[5]);

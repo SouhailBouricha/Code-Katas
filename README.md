@@ -18,4 +18,5 @@
 ## Day 3
 
 - [Vowel Count - 7 kyu](https://www.codewars.com/kata/vowel-count)
+- [Complementary DNA - 7 kyu](https://www.codewars.com/kata/complementary-dna)
 

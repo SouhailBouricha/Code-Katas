@@ -14,3 +14,8 @@
 - [Exes and Ohs - 7 kyu](https://www.codewars.com/kata/exes-and-ohs)
 - [Fat Fingers - 6 kyu](https://www.codewars.com/kata/fat-fingers)
 - [Sum of Pairs - 5 kyu](https://www.codewars.com/kata/sum-of-pairs)
+
+## Day 3
+
+- [Vowel Count - 7 kyu](https://www.codewars.com/kata/vowel-count)
+

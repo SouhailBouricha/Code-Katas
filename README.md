@@ -19,4 +19,6 @@
 
 - [Vowel Count - 7 kyu](https://www.codewars.com/kata/vowel-count)
 - [Complementary DNA - 7 kyu](https://www.codewars.com/kata/complementary-dna)
+- [Take a Ten Minute Walk - 6 kyu](https://www.codewars.com/kata/complementary-dna)
+- [IQ Test - 6 kyu](https://www.codewars.com/kata/iq-test)
 

@@ -4,3 +4,4 @@
 - [x] Complementary DNA - 7 kyu
 - [x] Take a Ten Minute Walk - 6 kyu
 - [x] IQ Test - 6 kyu
+- [x] Simple Pig Latin - 5 kyu

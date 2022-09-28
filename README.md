@@ -26,3 +26,4 @@
 ## Day 4
 
 - [List Filtering - 7 kyu](https://www.codewars.com/kata/list-filtering)
+- [Count the smiley faces! - 6 kyu](https://www.codewars.com/kata/count-the-smiley-faces)

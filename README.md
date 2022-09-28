@@ -23,3 +23,6 @@
 - [IQ Test - 6 kyu](https://www.codewars.com/kata/iq-test)
 - [Simple Pig Latin - 5 kyu](https://www.codewars.com/kata/simple-pig-latin)
 
+## Day 4
+
+- [List Filtering - 7 kyu](https://www.codewars.com/kata/list-filtering)

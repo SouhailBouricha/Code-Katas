@@ -28,3 +28,4 @@
 - [List Filtering - 7 kyu](https://www.codewars.com/kata/list-filtering)
 - [Count the smiley faces! - 6 kyu](https://www.codewars.com/kata/count-the-smiley-faces)
 - [Scramblies - 5 kyu](https://www.codewars.com/kata/scramblies)
+- [Human Readable Time - 5 kyu](https://www.codewars.com/kata/human-readable-time)

@@ -5,3 +5,4 @@
 - [x] Scramblies - 5 kyu
 - [x] Human Readable Time - 5 kyu
 - [x] Maximum subarray sum - 5 kyu
+- [x] Sum Strings as Numbers - 4 kyu

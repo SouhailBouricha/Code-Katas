@@ -30,3 +30,4 @@
 - [Scramblies - 5 kyu](https://www.codewars.com/kata/scramblies)
 - [Human Readable Time - 5 kyu](https://www.codewars.com/kata/human-readable-time)
 - [Maximum subarray sum - 5 kyu](https://www.codewars.com/kata/maximum-subarray-sum)
+- [Sum Strings as Numbers - 4 kyu](https://www.codewars.com/kata/maximum-subarray-sum)

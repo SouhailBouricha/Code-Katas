@@ -31,3 +31,7 @@
 - [Human Readable Time - 5 kyu](https://www.codewars.com/kata/human-readable-time)
 - [Maximum subarray sum - 5 kyu](https://www.codewars.com/kata/maximum-subarray-sum)
 - [Sum Strings as Numbers - 4 kyu](https://www.codewars.com/kata/sum-strings-as-numbers)
+
+## Day 5
+
+- [Sum of two lowest positive integers - 7 kyu](https://www.codewars.com/kata/sum-of-two-lowest-positive-integers)

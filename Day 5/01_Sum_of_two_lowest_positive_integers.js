@@ -18,8 +18,8 @@ function sumTwoSmallestNumbers(numbers) {
             secondesmallest = numbers[i] 
         }
     }
-    // return smallest + secondesmallest;
-    console.log(smallest + secondesmallest);
+    return smallest + secondesmallest;
+    // console.log(smallest + secondesmallest);
 }
 
 sumTwoSmallestNumbers([5, 8, 12, 19, 22]); //"Sum should be 13"

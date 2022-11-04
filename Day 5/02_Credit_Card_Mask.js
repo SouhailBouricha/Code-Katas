@@ -12,10 +12,10 @@ function maskify(cc) {
             }
             id--;
         }
-        console.log(newWord);
+        return newWord;
     }
     else{
-        console.log(cc);
+        return cc;
     }
 }
 maskify('4556364607935616') // ############5616

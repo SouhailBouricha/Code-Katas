@@ -1,5 +1,10 @@
 function createPhoneNumber(numbers){
-    
+    let phoneNumber = "";
+    numbers.forEach((element,id) => {
+        if(id == 0){
+            console.log(element,id);
+        }
+    });
 }
 
 

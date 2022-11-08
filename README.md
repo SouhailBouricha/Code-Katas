@@ -36,4 +36,4 @@
 
 - [Sum of two lowest positive integers - 7 kyu](https://www.codewars.com/kata/sum-of-two-lowest-positive-integers)
 - [Credit Card Mask - 7 kyu](https://www.codewars.com/kata/5412509bd436bd33920011bc)
-- [Equal Sides Of An Array - 6 kyu](https://www.codewars.com/kata/5412509bd436bd33920011bc)
+- [Equal Sides Of An Array - 6 kyu](https://www.codewars.com/kata/equal-sides-of-an-array)

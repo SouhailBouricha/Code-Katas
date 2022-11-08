@@ -29,5 +29,3 @@ console.log(palindromeChainLength(88), 0);
 console.log(palindromeChainLength(87), 4);
 console.log(palindromeChainLength(89), 24);
 console.log(palindromeChainLength(10), 1);
-
-//673

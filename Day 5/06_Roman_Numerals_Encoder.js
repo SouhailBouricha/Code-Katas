@@ -38,7 +38,7 @@ function solution(number){
             }
         }
     }
-    console.log(romanNumber);
+    return romanNumber;
 }
 
 

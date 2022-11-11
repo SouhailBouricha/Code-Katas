@@ -30,20 +30,25 @@ function solution(number){
         1000 : "M",
     }
     romanNumber = "";
-    for(let i = Object.keys(lockUp).length - 1; i > 0; i--){
+    for(let i = Object.keys(lockUp).length - 1; i >= 0; i--){
         if(number >= Object.keys(lockUp)[i]){
-            romanNumber += lockUp[Object.keys(lockUp)[i]];
-            number -=  Object.keys(lockUp)[i];
-            console.log(number,romanNumber,);
+            while(number >= Object.keys(lockUp)[i]){
+                romanNumber += lockUp[Object.keys(lockUp)[i]];
+                number = number - Object.keys(lockUp)[i];
+                // console.log(number,romanNumber,);
+            }
         }
-        console.log(number,Object.keys(lockUp)[i],lockUp[Object.keys(lockUp)[i]]);
+        // console.log(number,Object.keys(lockUp)[i],lockUp[Object.keys(lockUp)[i]]);
         // console.log(lockUp[Object.keys(lockUp)[i]]);
     }
     console.log(romanNumber);
 }
+//2007 should, "MMVII": expected 'MCMCVII' to equal 'MMVII'
+solution(2007)
+solution(2000)
+
 
 //solution(1)  // 'I', '1 should return "I"'
-solution(1001)
 //solution(2)  // 'II', '2 should return "II"'
 //solution(3)  // 'III', '3 should return "III"'
 //solution(4)  // 'IV', '4 should return "IV"'

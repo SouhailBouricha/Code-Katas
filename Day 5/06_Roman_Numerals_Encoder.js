@@ -34,8 +34,9 @@ function solution(number){
         if(number >= Object.keys(lockUp)[i]){
             romanNumber += lockUp[Object.keys(lockUp)[i]];
             number -=  Object.keys(lockUp)[i];
-            console.log(number,romanNumber);
+            console.log(number,romanNumber,);
         }
+        console.log(number,Object.keys(lockUp)[i],lockUp[Object.keys(lockUp)[i]]);
         // console.log(lockUp[Object.keys(lockUp)[i]]);
     }
     console.log(romanNumber);

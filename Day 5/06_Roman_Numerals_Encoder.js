@@ -1,4 +1,8 @@
-
+function solution(number){
+    const lockUp = {
+        1 : "",
+    }
+}
 
 solution(1)  // 'I', '1 should return "I"'
 solution(2)  // 'II', '2 should return "II"'

@@ -39,3 +39,8 @@
 - [Equal Sides Of An Array - 6 kyu](https://www.codewars.com/kata/equal-sides-of-an-array)
 - [Palindrome chain length - 7 kyu](https://www.codewars.com/kata/palindrome-chain-length)
 - [Roman Numerals Encoder - 6 kyu](https://www.codewars.com/kata/51b62bf6a9c58071c600001b)
+
+## Day 6
+
+- [Beginner Series #3 Sum of Numbers - 7 kyu](https://www.codewars.com/kata/beginner-series-number-3-sum-of-numbers)
+- [Find the odd int - 6 kyu](https://www.codewars.com/kata/find-the-odd-int)

@@ -44,4 +44,4 @@
 
 - [Beginner Series #3 Sum of Numbers - 7 kyu](https://www.codewars.com/kata/beginner-series-number-3-sum-of-numbers)
 - [Find the odd int - 6 kyu](https://www.codewars.com/kata/find-the-odd-int)
-- [Sum of Digits / Digital Root - 6 kyu](https://www.codewars.com/kata/find-the-odd-int)
+- [Sum of Digits / Digital Root - 6 kyu](https://www.codewars.com/kata/sum-of-digits-slash-digital-root)

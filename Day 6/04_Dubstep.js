@@ -1,17 +1,16 @@
 function songDecoder(song){
-    let space = 0;
     let word = "";
-    song.split("WUB").forEach(element => {
+    song.split("WUB").forEach((element, id, array) => {
         if(element !== ""){
-            word += element;
-            space = 0;
-        }
-        else if(element === "" && space === 0){
-            word += " ";
-            space = 1;
+            if(id !== array.length - 1){
+                word += element + " ";
+            }
+            else{
+                word += element;
+            }
         }
     });
-    return word;
+    return word.trim();
 }
 
 console.log(songDecoder("AWUBBWUBC"), "A B C", songDecoder("AWUBBWUBC") == "A B C");

@@ -1,4 +1,7 @@
 function moveZeros(arr) {
+    let realArr = [];
+    let zerosArr = [];
+    
     return
 }
 

@@ -1,13 +1,37 @@
 function calc(expr) {
-    // TODO: Your awesome code here
-    return 0;
+
+    if(expr.split(' ').length === 1){
+        return +expr.split(' ')[0]
+    }
+    else{
+        let result;
+        for (let i = 0; i < expr.split(' ').length; i++) {
+            const element = expr.split(' ')[i];
+            let start = 0;
+            if(["-","+","/","*"].includes(element)){
+                for (let j = start; j < i; j++) {
+                    console.log(i,j,element);
+                    if(result === undefined){
+                        result = expr.split(' ')[j];
+                    }
+                    else{
+                        if(element === "+"){
+                            result += expr.split(' ')[j];
+                        }
+                    }
+                }
+            }
+        }
+        return result;
+    }
+    return expr.split(" ");
 }
 
 
-console.log(calc(""), 0, "Should work with empty string");
-console.log(calc("3"), 3, "Should parse numbers");
-console.log(calc("3.5"), 3.5, "Should parse float numbers");
-console.log(calc("1 3 +"), 4, "Should support addition");
-console.log(calc("1 3 *"), 3, "Should support multiplication");
-console.log(calc("1 3 -"), -2, "Should support subtraction");
-console.log(calc("4 2 /"), 2, "Should support division");
+console.log(calc(""), 0, "Should work with empty string",calc("") === 0);
+console.log(calc("3"), 3, "Should parse numbers",calc("3") === 3);
+console.log(calc("3.5"), 3.5, "Should parse float numbers",calc("3.5") === 3.5);
+console.log(calc("1 3 +"), 4, "Should support addition",calc("1 3 +") === 4);
+// console.log(calc("1 3 *"), 3, "Should support multiplication",calc("1 3 *") === 3);
+// console.log(calc("1 3 -"), -2, "Should support subtraction",calc("1 3 -") === -2);
+// console.log(calc("4 2 /"), 2, "Should support division",calc("4 2 /") === 2);

@@ -46,3 +46,5 @@
 - [Find the odd int - 6 kyu](https://www.codewars.com/kata/find-the-odd-int)
 - [Sum of Digits / Digital Root - 6 kyu](https://www.codewars.com/kata/sum-of-digits-slash-digital-root)
 - [Dubstep - 6 kyu](https://www.codewars.com/kata/dubstep)
+- [Moving Zeros To The End - 5 kyu](https://www.codewars.com/kata/moving-zeros-to-the-end)
+- [Calculating with Functions - 5 kyu](https://www.codewars.com/kata/calculating-with-functions)

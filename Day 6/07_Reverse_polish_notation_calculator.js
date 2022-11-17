@@ -1,25 +1,15 @@
 function calc(expr) {
-
     if(expr.split(' ').length === 1){
         return +expr.split(' ')[0]
     }
     else{
-        let result;
+        let result = 0;
         for (let i = 0; i < expr.split(' ').length; i++) {
             const element = expr.split(' ')[i];
             let start = 0;
             if(["-","+","/","*"].includes(element)){
-                for (let j = start; j < i; j++) {
-                    console.log(i,j,element);
-                    if(result === undefined){
-                        result = expr.split(' ')[j];
-                    }
-                    else{
-                        if(element === "+"){
-                            result += expr.split(' ')[j];
-                        }
-                    }
-                }
+                result = result + expr.split(' ').slice(start,i).reduce((res,ele) =>  res += +ele ,0);
+                start = i;
             }
         }
         return result;

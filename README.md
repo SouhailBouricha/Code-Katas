@@ -48,3 +48,4 @@
 - [Dubstep - 6 kyu](https://www.codewars.com/kata/dubstep)
 - [Moving Zeros To The End - 5 kyu](https://www.codewars.com/kata/moving-zeros-to-the-end)
 - [Calculating with Functions - 5 kyu](https://www.codewars.com/kata/calculating-with-functions)
+- [Reverse polish notation calculator - 6 kyu](https://www.codewars.com/kata/reverse-polish-notation-calculator)

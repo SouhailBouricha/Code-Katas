@@ -6,3 +6,4 @@
 - [x] Dubstep - 6 kyu
 - [x] Moving Zeros To The End - 5 kyu
 - [x] Calculating with Functions - 5 kyu
+- [x] Reverse polish notation calculator - 6 kyu

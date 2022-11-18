@@ -49,3 +49,7 @@
 - [Moving Zeros To The End - 5 kyu](https://www.codewars.com/kata/moving-zeros-to-the-end)
 - [Calculating with Functions - 5 kyu](https://www.codewars.com/kata/calculating-with-functions)
 - [Reverse polish notation calculator - 6 kyu](https://www.codewars.com/kata/reverse-polish-notation-calculator)
+
+## Day 7
+
+- [Isograms - 7 kyu](https://www.codewars.com/kata/beginner-series-number-3-sum-of-numbers)

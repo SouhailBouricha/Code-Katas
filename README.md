@@ -52,4 +52,4 @@
 
 ## Day 7
 
-- [Isograms - 7 kyu](https://www.codewars.com/kata/beginner-series-number-3-sum-of-numbers)
+- [Isograms - 7 kyu](https://www.codewars.com/kata/isograms)

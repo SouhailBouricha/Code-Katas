@@ -53,3 +53,4 @@
 ## Day 7
 
 - [Isograms - 7 kyu](https://www.codewars.com/kata/isograms)
+- [Categorize New Member - 7 kyu](https://www.codewars.com/kata/isograms)

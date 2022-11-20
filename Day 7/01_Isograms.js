@@ -1,7 +1,7 @@
 function isIsogram(str){
     const lookUp = {};
     for (let i = 0; i < str.length; i++) {
-        const element = str[i];
+        const element = str[i].toUpperCase();
         if(lookUp[element]){
             return false;
         }
@@ -9,6 +9,7 @@ function isIsogram(str){
             lookUp[element] = true;
         }
     }
+    return true;
 }
 
 console.log(isIsogram("Dermatoglyphics"), true );

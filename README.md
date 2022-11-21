@@ -56,3 +56,4 @@
 - [Categorize New Member - 7 kyu](https://www.codewars.com/kata/categorize-new-member)
 - [Multiples of 3 or 5 - 6 kyu](https://www.codewars.com/kata/multiples-of-3-or-5)
 - [Convert string to camel case - 6 kyu](https://www.codewars.com/kata/convert-string-to-camel-case)
+- [Where my anagrams at? - 5 kyu](https://www.codewars.com/kata/where-my-anagrams-at)

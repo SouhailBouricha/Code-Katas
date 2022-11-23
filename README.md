@@ -58,3 +58,4 @@
 - [Convert string to camel case - 6 kyu](https://www.codewars.com/kata/convert-string-to-camel-case)
 - [Where my anagrams at? - 5 kyu](https://www.codewars.com/kata/where-my-anagrams-at)
 - [RGB To Hex Conversion - 5 kyu](https://www.codewars.com/kata/rgb-to-hex-conversion)
+- [Priori Incantatem - 4 kyu](https://www.codewars.com/kata/priori-incantatem)

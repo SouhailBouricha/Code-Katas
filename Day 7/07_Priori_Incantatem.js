@@ -20,5 +20,5 @@ class Wand {
     }
 }
 
-// const w = new Wand({peskipiksiPesternomi: function() {}});
-const w = new Wand();
+const w = new Wand({peskipiksiPesternomi: function() {}});
+const n = new Wand();

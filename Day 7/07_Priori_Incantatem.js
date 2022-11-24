@@ -15,9 +15,7 @@ class Wand {
       })   
     }
     prioriIncantatem(){
-        const casted = [...this.arr];
-        this.arr.unshift("prioriIncantatem");
-        return casted;
+        return this.arr.slice(1,3);
     }
 }
 

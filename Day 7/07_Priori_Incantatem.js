@@ -5,7 +5,7 @@ class Wand {
         console.log(element);
       });    
     }
-  }
+}
 
 // const w = new Wand({peskipiksiPesternomi: function() {}});
 const w = new Wand();

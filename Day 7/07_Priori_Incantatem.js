@@ -1,14 +1,12 @@
 class Wand {
     constructor(spells = {}){
         this.arr = [];
-        Object.keys(spells).forEach(element => {
-        this[element] = spells[element];
-      });
+        Object.keys(spells).forEach(element => this[element] = spells[element] );
       return new Proxy(this,{
         get: (target,property) =>{
             const value = target[property];
             if(typeof value === "function"){
-                this.arr.unshift(property);
+                target.arr.unshift(property);
             }
             return value;
         }
@@ -16,6 +14,9 @@ class Wand {
     }
     prioriIncantatem(){
         return this.arr.slice(1,3);
+    }
+    deletrius(){
+        this.arr = ["deletrius"]
     }
 }
 

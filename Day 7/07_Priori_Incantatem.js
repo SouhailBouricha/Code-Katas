@@ -1,9 +1,16 @@
 // What are you, a Squib? Get coding!!
 class Wand {
     constructor(spells = {}){
+        this.arr = [];
         Object.keys(spells).forEach(element => {
-        console.log(element);
+        this[element] = () => { 
+            this.arr.unshift(element);
+            spells[element]
+        };
       });    
+    }
+    prioriIncantatem(){
+        return this.arr;
     }
 }
 

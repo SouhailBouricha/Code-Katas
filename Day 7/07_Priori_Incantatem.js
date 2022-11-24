@@ -7,6 +7,7 @@ class Wand {
             const value = target[property];
             if(typeof value === "function"){
                 target.arr.unshift(property);
+                console.log(value,"v",this.arr);
             }
             return value;
         }
@@ -20,5 +21,9 @@ class Wand {
     }
 }
 
-const w = new Wand({peskipiksiPesternomi: function() {}});
-const n = new Wand();
+const w = new Wand();
+w.expelliarmus = function() {};
+w.alohomora = function() {};
+w.expelliarmus();
+console.log(w.alohomora.toString());
+console.log(w.prioriIncantatem());

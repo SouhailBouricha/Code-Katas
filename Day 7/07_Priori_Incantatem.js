@@ -1,13 +1,18 @@
-// What are you, a Squib? Get coding!!
 class Wand {
     constructor(spells = {}){
         this.arr = [];
         Object.keys(spells).forEach(element => {
-        this[element] = () => { 
-            this.arr.unshift(element);
-            spells[element]
-        };
-      });    
+        this[element] = spells[element];
+      });
+      return new Proxy(this,{
+        get: (target,property) =>{
+            const value = target[property];
+            if(typeof value === "function"){
+                this.arr.unshift(property);
+            }
+            return value;
+        }
+      })   
     }
     prioriIncantatem(){
         const casted = [...this.arr];

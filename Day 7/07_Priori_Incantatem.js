@@ -10,7 +10,9 @@ class Wand {
       });    
     }
     prioriIncantatem(){
-        return this.arr;
+        const casted = [...this.arr];
+        this.arr.unshift("prioriIncantatem");
+        return casted;
     }
 }
 

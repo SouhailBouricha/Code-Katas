@@ -13,7 +13,7 @@ class Wand {
       })   
     }
     prioriIncantatem(){
-        return this.arr.slice(1,3);
+        return this.arr.slice(1,13);
     }
     deletrius(){
         this.arr = ["deletrius"]

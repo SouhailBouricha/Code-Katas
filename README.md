@@ -63,3 +63,4 @@
 ## Day 8
 
 - [Growth of a Population - 7 kyu](https://www.codewars.com/kata/growth-of-a-population/train/javascript)
+- [Your order, please - 6 kyu](https://www.codewars.com/kata/your-order-please/train/javascript)

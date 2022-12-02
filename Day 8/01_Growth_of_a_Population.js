@@ -2,7 +2,7 @@ function nbYear(p0, percent, aug, p) {
     let RealPercent = percent * 0.01;
     let population = 0;
     let year = 0;
-    while(population < p){
+    while(population <= p){
         population = p0 + p0 * RealPercent + aug;
         p0 = population;
         year++;

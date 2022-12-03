@@ -66,3 +66,4 @@
 - [Your order, please - 6 kyu](https://www.codewars.com/kata/your-order-please/train/javascript)
 - [Are they the "same"? - 6 kyu](https://www.codewars.com/kata/are-they-the-same/train/javascript)
 - [Rot13 - 5 kyu](https://www.codewars.com/kata/rot13-1/train/javascript)
+- [Twice linear - 4 kyu](https://www.codewars.com/kata/twice-linear/train/javascript)

@@ -67,3 +67,7 @@
 - [Are they the "same"? - 6 kyu](https://www.codewars.com/kata/are-they-the-same/train/javascript)
 - [Rot13 - 5 kyu](https://www.codewars.com/kata/rot13-1/train/javascript)
 - [Twice linear - 4 kyu](https://www.codewars.com/kata/twice-linear/train/javascript)
+
+## Day 9
+
+- [Correct the mistakes of the character recognition software - 8 kyu](https://www.codewars.com/kata/correct-the-mistakes-of-the-character-recognition-software/train/javascript)

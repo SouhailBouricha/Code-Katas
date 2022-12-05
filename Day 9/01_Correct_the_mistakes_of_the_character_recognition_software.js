@@ -1,5 +1,18 @@
 function correct(string){
-	
+	return string.split("").reduce((word,letter) =>{
+        if(letter !== "0" && letter !== "5" && letter !== "1"){
+            return word += letter;
+        }
+        else if(letter === "5"){
+            return word += "S";
+        }
+        else if(letter === "1"){
+            return word += "I";
+        }
+        else{
+            return word += "O";
+        }
+    },"");
 }
 
 console.log(correct("L0ND0N"),"LONDON");

@@ -1,8 +1,8 @@
 function isArray(array) {
     return array.constructor === Array;
-  }
-  Array.prototype.sameStructureAs = function (other) {
-       if (!isArray(other)) return false;
+}
+Array.prototype.sameStructureAs = function (other) {
+    if (!isArray(other)) return false;
     if (this.length != other.length) return false;
   
     for (let i = 0; i < this.length; i++) {

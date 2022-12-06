@@ -73,3 +73,4 @@
 - [Correct the mistakes of the character recognition software - 8 kyu](https://www.codewars.com/kata/correct-the-mistakes-of-the-character-recognition-software/train/javascript)
 - [Does my number look big in this? - 6 kyu](https://www.codewars.com/kata/does-my-number-look-big-in-this/train/javascript)
 - [Regex Password Validation - 5 kyu](https://www.codewars.com/kata/regex-password-validation/train/javascript)
+- [Nesting Structure Comparison - 4 kyu](https://www.codewars.com/kata/nesting-structure-comparison/train/javascript)

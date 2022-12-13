@@ -79,4 +79,4 @@
 
 - [Find the divisors! - 7 kyu](https://www.codewars.com/kata/find-the-divisors/train/javascript)
 - [Stop gninnipS My sdroW! - 6 kyu](https://www.codewars.com/kata/stop-gninnips-my-sdrow/train/javascript)
-- [Pete, the baker - 5 kyu](https://www.codewars.com/kata/regex-password-validation/train/javascript)
+- [Pete, the baker - 5 kyu](https://www.codewars.com/kata/pete-the-baker/train/javascript)

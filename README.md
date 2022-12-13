@@ -77,6 +77,6 @@
 
 ## Day 10
 
-- [Find the divisors! - 7 kyu](https://www.codewars.com/kata/correct-the-mistakes-of-the-character-recognition-software/train/javascript)
+- [Find the divisors! - 7 kyu](https://www.codewars.com/kata/find-the-divisors/train/javascript)
 - [Stop gninnipS My sdroW! - 6 kyu](https://www.codewars.com/kata/does-my-number-look-big-in-this/train/javascript)
 - [Pete, the baker - 5 kyu](https://www.codewars.com/kata/regex-password-validation/train/javascript)

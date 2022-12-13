@@ -1,21 +1,12 @@
 function cakes(recipe, available) {
-    let count = 0;
-    let thin = true;
-    let numberLength = Object.keys(recipe).length > Object.keys(available).length ? Object.keys(recipe).length : Object.keys(available).length;
-    while(thin === true){
-        for (let i = 0; i < numberLength; i++) {
+    let count = Math.floor(available[Object.keys(recipe)[0]] / recipe[Object.keys(recipe)[0]]) >= 0 ? Math.floor(available[Object.keys(recipe)[0]] / recipe[Object.keys(recipe)[0]]) : 0;
+        for (let i = 0; i < Object.keys(recipe).length; i++) {
             const recipeElement = recipe[Object.keys(recipe)[i]] ? recipe[Object.keys(recipe)[i]] : 0;
-            const availableElement = available[Object.keys(available)[i]] ? available[Object.keys(available)[i]] : 0;
-            if(recipeElement <= availableElement){
-                available[Object.keys(available)[i]] = available[Object.keys(available)[i]] - recipeElement;
-            }
-            else{
-                thin = false;
-            }
-            // console.log(recipeElement,availableElement,available,count);        
+            const availableElement = available[Object.keys(recipe)[i]] ? available[Object.keys(recipe)[i]] : 0;
+            if((availableElement / recipeElement) < count){
+                count  = Math.floor(availableElement / recipeElement);
+            }   
         } 
-        count++;
-    }
     return count;
 }
 

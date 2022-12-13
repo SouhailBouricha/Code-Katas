@@ -1,5 +1,15 @@
 function spinWords(string){
-    
+    let result = "";
+    for (let i = 0; i < string.split(" ").length; i++) {
+        const word = string.split(" ")[i];
+        if(word.length < 5){
+            result += word  + " ";
+        }
+        else{
+            result += word.split("").reverse().join("") + " ";
+        }
+    }
+    return result.trim();
 }
 
 console.log(spinWords("Welcome"), "emocleW");
